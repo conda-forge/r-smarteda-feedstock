@@ -1,11 +1,11 @@
-About r-smarteda
-================
+About r-smarteda-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-smarteda-feedstock/blob/main/LICENSE.txt)
 
 Home: https://daya6489.github.io/SmartEDA/
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-smarteda-feedstock/blob/main/LICENSE.txt)
 
 Summary: Exploratory analysis on any input data describing the structure and the relationships present in the data. The package automatically select the variable and does related descriptive statistics. Analyzing information value, weight of evidence, custom tables, summary statistics, graphical techniques will be performed for both numeric and categorical predictors.
 
