@@ -1,4 +1,4 @@
-{% set version = "0.3.9" %}
+{% set version = "0.3.10" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/SmartEDA_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/SmartEDA/SmartEDA_{{ version }}.tar.gz
-  sha256: 4e2e84f2396c77fe64e3ac9e73d664b80b09731662eab5aecdad0341e788b83a
+  sha256: 8bfe65f595feadb3b4af1872e33a1f9f1f80f230c0269f1cd57d511fee34a916
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
