@@ -1,6 +1,5 @@
 {% set version = "0.3.10" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-smarteda
@@ -13,8 +12,7 @@ source:
   sha256: 8bfe65f595feadb3b4af1872e33a1f9f1f80f230c0269f1cd57d511fee34a916
 
 build:
-  merge_build_host: true  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
